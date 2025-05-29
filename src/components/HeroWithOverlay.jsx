@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import J2 from "../assets/J2.jpg";
-import FounderImage from '../assets/Founder.jpg';
+import FounderImage from '../assets/founder.jpg';
 
 const HeroWithOverlay = () => {
   return (
