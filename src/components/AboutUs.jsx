@@ -20,11 +20,9 @@ const AboutUs = () => {
       <div className="max-w-xl space-y-6 relative z-10 md:ml-10">
         <p className="text-lg text-gray-900 opacity-80">Empowering India’s Future</p>
         <h1 className="text-5xl font-bold leading-tight text-black opacity-90 animate__animated animate__fadeIn">
-          Innovating, Transforming <br /> and Leading Together
+         Where clarity becomes <br /> a system, and systems build success.
         </h1>
-        <p className="text-base text-blue-950 opacity-90 animate__animated animate__fadeIn animate__delay-1s">
-          We drive innovation and sustainable growth by partnering with organizations across industries to create real impact.
-        </p>
+        
         
       </div>
     </section>

@@ -10,7 +10,9 @@ const Footer = () => {
 
         <img src={Bcs} alt="Logo" className="h-10 p-1 bg-white rounded-md" /> {/* Logo */}
           <p className="text-gray-400 text-sm pt-2">
-            Structured movement for doers, builders, and visionaries.
+          We’re not just available — we’re aligned.
+ Whether you’re exploring a collaboration, seeking support, or just need to talk through your vision, we’re ready.
+
           </p>
         </div>
 

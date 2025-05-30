@@ -3,17 +3,18 @@ import { FaCheckCircle } from 'react-icons/fa';
 
 const EcosystemBenefits = () => {
   const benefits = [
-    "Scalability Without Rebuilding",
-    "Multi-Vertical Support in One Structure",
-    "Aligned Systems, Not Random Vendors",
-    "Investors, Experts & Founders Under One Roof",
-    "Execution with Measurable SOPs and Ownership",
+    "	PCs bridge troup work and client goals",
+    "AOBs bring vertical excellence (legal, HR, IT)",
+    "Troups execute based on PC-aligned action models",
+    "OESIL scans ventures for readiness and connects to investors",
+    
   ];
 
   const testimonials = [
-    "Joining the BusyAge ecosystem reduced our execution friction by 60%.",
-    "We scaled with coordination, not chaos.",
-    "The clarity we got from troup + PC model was game-changing.",
+    "•	Decentralized yet integrated",
+    "•	Adaptive based on business type",
+    "•	Every member has structure, SOPs, and measurable accountability",
+    "•	Aligned to scale without losing soul",
   ];
 
   return (
@@ -25,12 +26,12 @@ const EcosystemBenefits = () => {
         {/* Benefits Header */}
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-            Benefits of the Ecosystem Approach
+             Roles & Relationships
           </h2>
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
           {benefits.map((item, index) => (
             <div
               key={index}
@@ -44,8 +45,8 @@ const EcosystemBenefits = () => {
 
         {/* Testimonials */}
         <div className="bg-white/60 rounded-2xl p-8 text-center shadow-inner">
-          <h3 className="text-2xl font-semibold text-gray-800 mb-6">What Our Ecosystem Members Say</h3>
-          <div className="grid gap-4 md:grid-cols-3 text-gray-700">
+          <h3 className="text-2xl font-semibold text-gray-800 mb-6">Why This Ecosystem Works</h3>
+          <div className="grid gap-x-25 md:grid-cols-2  text-gray-700">
             {testimonials.map((quote, index) => (
               <blockquote
                 key={index}
@@ -58,13 +59,13 @@ const EcosystemBenefits = () => {
         </div>
 
         {/* CTA Buttons */}
-        <div className="text-center space-x-4">
+        <div className="text-center space-x-4 sm:space-x-6 mt-10">
           <a
             href="#"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition"
           >
-            See How TBBIM Works
-          </a>
+            Explore Roles
+          </a> 
           <a
             href="#"
             className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-full transition"
@@ -75,7 +76,7 @@ const EcosystemBenefits = () => {
             href="#"
             className="inline-block bg-gray-800 hover:bg-black text-white font-semibold px-6 py-3 rounded-full transition"
           >
-            Request Ecosystem Demo
+            See Troup Opportunities
           </a>
         </div>
       </div>

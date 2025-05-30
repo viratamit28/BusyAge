@@ -8,13 +8,18 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-cover bg-center blur-[10px]" style={{ backgroundImage: `url(${image})` }}></div>
       
       <div className="max-w-xl space-y-6 relative z-10">
-        <p className="text-lg text-gray-200 opacity-80">Welcome to</p>
-        <h1 className="text-5xl font-bold leading-tight text-white opacity-90 animate__animated animate__fadeIn">
-          BusyAge <br /> Consultancy Services
+        <p className="text-lg text-gray-200 opacity-80"> Join the Movement. Build the Future</p>
+        <h1 className="text-5xl font-bold capitalize leading-tight text-white opacity-90 animate__animated animate__fadeIn">
+           Not just work with us <br /> grow with us.<br /> Build with purpose
         </h1>
-        <p className="text-base text-yellow-50 opacity-90 animate__animated animate__fadeIn animate__delay-1s">
-          We’re not just available — we’re aligned. Whether you’re exploring a collaboration, seeking support, or just need to talk through your vision, we’re ready.
-          <b>Because at BusyAge, connection is the first step to clarity.</b>
+        <p className="text-base text-green-700 opacity-90 animate__animated animate__fadeIn animate__delay-1s">
+         <b> BusyAge is more than a company — it’s a structured movement.
+ We don’t just onboard talent.
+ We align minds with missions.
+ This is where execution begins with clarity, and evolves with purpose.
+ This is where you don’t just find work — you build your journey.
+
+          Because at BusyAge, connection is the first step to clarity.</b>
         </p>
         
       </div>

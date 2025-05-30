@@ -13,17 +13,17 @@ const MissionVisionDrives = () => {
             {
               title: "Our Mission",
               content:
-                "To build foundational business systems that empower founders and teams to grow sustainably and strategically.",
+                "We exist to eliminate chaos from growth journeysBy designing business systems that are scalable, fundable, and sustainable. we enable founders and teams to move from firefighting to future-building.",
             },
             {
               title: "Our Vision",
               content:
-                "To be the backbone of executable businesses across the globe — turning potential into performance.",
+                "To become India’s most trusted ecosystem builder  a structured ally for ambitious entrepreneurs and organizations  where ideas evolve into institutions, and every venture has a roadmap, not just a direction.",
             },
             {
               title: "What Drives Us",
               content:
-                "Frustration with fluff. Passion for structure. A relentless belief that businesses deserve better systems, not just slogans.",
+                "BusyAge supports not just business models, but the people behind them. We turn chaos into clarity through systems, not silos. Our goal is to be the structure beneath your growth helping founders lead confidently, teams work smoothly, and visions stay on track. Real support.",
             },
           ].map((item, index) => (
             <div
